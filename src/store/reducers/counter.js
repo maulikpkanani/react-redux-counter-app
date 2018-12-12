@@ -13,6 +13,10 @@ const reducer = (state = initialState, action) => {
       return updateObject(state, { counter: state.counter - 1 });
     case actionTypes.ADD:
       return updateObject(state, { counter: state.counter + action.val });
+    case actionTypes.SUBTRACT:
+      return updateObject(state, { counter: state.counter - action.val });
+    case actionTypes.RESET:
+      return updateObject(state, { counter: 0 });
   }
   return state;
 };

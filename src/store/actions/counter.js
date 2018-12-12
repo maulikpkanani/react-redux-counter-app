@@ -17,3 +17,16 @@ export const add = value => {
     val: value
   };
 };
+
+export const subtract = value => {
+  return {
+    type: actionTypes.SUBTRACT,
+    val: value
+  };
+};
+
+export const reset = () => {
+  return {
+    type: actionTypes.RESET
+  };
+};

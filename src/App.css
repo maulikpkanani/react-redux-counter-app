@@ -1,3 +1,7 @@
 .App {
   text-align: center;
+  margin: 10% 22%;
+  display: flex;
+  width: 60%;
+  box-sizing: border-box;
 }
