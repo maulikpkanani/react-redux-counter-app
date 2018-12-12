@@ -11,3 +11,9 @@ export const decrement = () => {
     type: actionTypes.DECREMENT
   };
 };
+export const add = value => {
+  return {
+    type: actionTypes.ADD,
+    val: value
+  };
+};
