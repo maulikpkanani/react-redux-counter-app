@@ -1,1 +1,1 @@
-export { increment } from './counter';
+export { increment, decrement } from './counter';

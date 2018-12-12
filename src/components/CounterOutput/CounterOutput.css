@@ -1,6 +1,7 @@
 .CounterOutput {
   width: 100%;
   background-color: #fa927f;
+  border: 1px solid white;
   color: white;
   font-size: 1.8rem;
   text-align: center;

@@ -5,3 +5,9 @@ export const increment = () => {
     type: actionTypes.INCREMENT
   };
 };
+
+export const decrement = () => {
+  return {
+    type: actionTypes.DECREMENT
+  };
+};
